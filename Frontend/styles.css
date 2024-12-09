@@ -1,0 +1,110 @@
+/* styles.css */
+body {
+    background-color: #514747;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+h1 {
+    color: #444; /* Text color */
+    text-shadow: 
+        -1px -1px 0 #fff,  
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff; /* White outline */
+}
+
+button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #ff6600; /* New color when hovered */
+}
+
+#donationAmount {
+    width: 250px; /* Increased width */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#totalDonations, #walletStatus {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.eye-button {
+    background-color: #008cba;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #333; /* Dark background color for footer */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-line {
+    border: 0;
+    height: 5px; /* Thickness of the line */
+    background-color: #fff; /* Line color */
+    margin: 0; /* Remove default margins */
+}
+
+.footer-text {
+    margin: 10px 0 0; /* Add top margin to separate from the line */
+}
+
+/* New section styles */
+#howToUse {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #333; /* Dark background for the section */
+    color: #fff; /* White text color */
+    border-radius: 8px;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Max width for larger screens */
+    border: 3px solid #fff; /* White outline */
+    text-align: left; /* Align text to the left */
+}
+
+#howToUse h1 {
+    margin-bottom: 20px;
+}
+
+#howToUse ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px; /* Add padding for better alignment */
+}
+
+#howToUse ul li {
+    margin-bottom: 10px; /* Space between bullet points */
+}

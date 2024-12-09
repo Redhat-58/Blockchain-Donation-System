@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.4/dist/web3.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <h1>Donate to Our Cause</h1>
+    <button id="connectButton">Connect Wallet</button>
+    <p id="walletStatus"></p>
+    <input type="number" id="donationAmount" placeholder="Enter donation amount (ETH)" step="0.01">
+    
+    <button id="donateButton">Donate</button>
+    <button id="getTotalButton">Get Total Donations</button>
+    <p id="totalDonations">Total Donations: 0 ETH</p>
+
+    <!-- New section for instructions -->
+    <div id="howToUse">
+        <h1>How to Use</h1>
+        <ul>
+            <li>Connect your wallet and set up your Ganache local network in MetaMask.</li>
+            <li>Import your account from Ganache into MetaMask for donation.</li>
+            <li>Enter the valid amount into the text field and press Donate.</li>
+            <li>Complete the transaction using MetaMask.</li>
+            <li>Total donations received will be displayed below automatically. If not, click on the Get Total Donations button.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <hr class="bottom-line">
+        <p class="footer-text">© Created by rKira.</p>
+    </footer>
+</body>
+</html>
